@@ -1,9 +1,10 @@
 import random
-
+import Art
+print(Art.logo)
 
 def guess_the_number():
     print('Welcome to the Number Guessing Game!')
-    number = random.randint(1, 101)
+    number = random.randrange(1, 101)
     print("I'm thinking of a number between 1 and 100.")
     difficulty = None
     while not difficulty:

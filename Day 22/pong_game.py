@@ -1,5 +1,5 @@
 from turtle import Screen
-
+from paddle import *
 
 def main():
 
@@ -9,5 +9,6 @@ def main():
     screen.tracer(0)
     screen.colormode(255)
     screen.exitonclick()
+
 
 main()

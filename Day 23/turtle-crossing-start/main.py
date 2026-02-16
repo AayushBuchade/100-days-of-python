@@ -25,11 +25,11 @@ while game_is_on:
 
     if car_manager.detect_collision(turtle):
         game_is_on = False
-        # scoreboard.game_over()
+        scoreboard.game_over()
 
     if turtle.arrived():
         turtle.restart()
         car_manager.level_up()
-        # scoreboard.increase_level()
+        scoreboard.increase_level()
 
 screen.exitonclick()
